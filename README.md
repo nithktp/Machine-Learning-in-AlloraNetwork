@@ -59,6 +59,14 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 X_train_processed = preprocessor.fit_transform(X_train)
 X_test_processed = preprocessor.transform(X_test)
 ```
+### 3. Save and Close the File
+#### If you're using nano:
+
+Press CTRL + O to save
+
+Press Enter to confirm
+
+Press CTRL + X to exit
 
 ### 3.Prepare the Environment
 ```
