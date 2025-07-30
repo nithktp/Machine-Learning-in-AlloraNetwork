@@ -59,6 +59,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 X_train_processed = preprocessor.fit_transform(X_train)
 X_test_processed = preprocessor.transform(X_test)
 ```
+
 ### 3.Prepare the Environment
 ```
 pip install pandas scikit-learn
@@ -68,3 +69,6 @@ pip install pandas scikit-learn
 python allora_ml_pipeline.py
 ```
 ---
+Output
+<img width="966" height="95" alt="image" src="https://github.com/user-attachments/assets/429282d3-223d-47ee-b1a2-177adf87d7e4" />
+
